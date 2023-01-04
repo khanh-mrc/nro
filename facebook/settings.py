@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y$%s1s+@z_0b($w0!umgq=)%jp_gacjem1an)0tq!bl+u@79t0
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://fakebookpromask-khanhmrc.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://nro-production.up.railway.app/']
 
 
 # Application definition
